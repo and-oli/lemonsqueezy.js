@@ -21,6 +21,7 @@ type Events =
   | "subscription_payment_failed"
   | "subscription_payment_recovered"
   | "subscription_payment_refunded"
+  | "subscription_plan_changed"
   | "license_key_created"
   | "license_key_updated";
 
